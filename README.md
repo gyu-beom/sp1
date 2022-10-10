@@ -14,6 +14,8 @@
 
 ## 아키텍처
 
+![sp1 drawio](https://user-images.githubusercontent.com/91241241/194828282-e5cfe168-5b38-45c9-a8dc-6b67dee053ec.png)
+
 - 사용한 기술 : aws eventbridge, aws lambda, aws sns, go lang
 - 1. EventBridge의 cron 정보(매일 오전 10시, 오후 6시)를 토대로 trigger가 발생합니다.
 - 2. 발생한 trigger로 인해 Lambda 함수가 동작합니다.
